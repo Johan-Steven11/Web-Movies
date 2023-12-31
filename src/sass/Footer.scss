@@ -1,0 +1,115 @@
+$main-font : 'Rajdhani',
+sans-serif;
+
+.content-footer {
+    width: 100%;
+    height: 500px;
+    margin-top: 35px;
+}
+
+.contene-services {
+    width: 100%;
+    height: 20%;
+}
+
+.list-services {
+    margin-top: 10px;
+    display: flex;
+    gap: 180px;
+}
+
+.Subscription {
+    height: 60%;
+    background-color: rgb(20, 28, 39);
+    width: 100%;
+}
+
+.Container-Sub {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-family: $main-font;
+}
+
+.MenuSub {
+    display: flex;
+    flex-wrap: wrap;
+    grid-auto-columns: 30px;
+    gap: 20px;
+    padding-left: 250px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.MenuSub input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-family: $main-font;
+
+}
+
+.MenuSub .text {
+    flex: 80%;
+    text-align: start;
+}
+
+.sexo {
+    display: flex;
+    text-align: start;
+    flex: 100%;
+    gap: 0;
+    gap: 10px;
+
+}
+
+.check {
+
+    padding: none;
+    margin: 0;
+}
+.suscribe{
+    display: flex;
+    gap: 20px;
+}
+.suscribe button{
+    background-color: rgb(247, 13, 35);
+    border: none;
+    color: #fff;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+}
+.suscribe p {
+    margin-top: 10px;
+}
+
+.contact-container{
+    display: flex;
+    height: 100%;
+    padding: 10px;
+}
+
+.secction{
+    background-color: #fff;
+    height:100%;
+    width: 20%;
+}
+.section p{
+   margin-top: 10px;
+   flex: 100%;
+   text-align: center;
+}
+.contact-list{
+padding: 0;
+list-style: none;
+}
+.end{
+    width: 100%;
+    height: 10%;
+    background-color:  rgb(247, 13, 35);
+    font-family: $main-font;
+    color: #fff;
+    text-align: center;
+}

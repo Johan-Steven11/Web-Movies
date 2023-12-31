@@ -1,0 +1,69 @@
+$main-font : 'Rajdhani', sans-serif;
+h4{
+    font-family: $main-font;
+}
+.content-shoping{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+
+}
+.quantity{
+    background-color: #fff;
+}
+
+.btnquantity{
+    background-color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.addShoping{
+    border: none;
+    color: #fff;
+    background-color:  rgb(20, 28, 39);
+    padding: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+.inputZone{
+    font-family: $main-font;
+    padding:5px ;
+    width: 350px;
+    margin-bottom: 10px;
+}
+.Check{
+    background-color: #CBCBCB;
+    padding:5px ;
+    width: 350px;
+    margin-bottom: 10px;
+    border: none;
+    cursor: pointer;
+}
+.favorite{
+    width: 350px;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    text-align:start;
+    color: #777;
+    cursor: pointer;
+    font-family: $main-font;
+    margin-bottom: 10px;
+}
+.credit-info{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.credit-info p {
+    font-size: 11px;
+}
+.credit-info button{
+    background-color:  rgb(247, 13, 35);
+    color: #fff;
+    border: none;
+    padding: 5px;
+}

@@ -1,0 +1,115 @@
+$main-font : 'Rajdhani', sans-serif;
+
+.Dropdown {
+    background-color: #fff;
+    padding-left: 10px;
+    padding-top: 15px;
+    width: 800px;
+    height: 250px;
+    margin-left: 250px;
+    padding-right: 0;
+    display: none;
+    position: absolute;
+    z-index: 3;
+}
+
+.TitleDropdown {
+    color: rgb(247, 13, 35);
+    font-family: $main-font;
+
+}
+
+.Container {
+    position: relative;
+}
+
+.Title-Cointainre {
+    display: flex;
+    gap: 20px;
+}
+
+.link {
+    font-family: $main-font;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.ContentDropdown {
+    padding: 0;
+    list-style: none;
+}
+
+.ContentArticles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article {
+    grid-template-columns: 35% 65%;
+    flex: 700px;
+    padding: 60px;
+    grid-template-columns: column;
+    display: flex;
+}
+
+.Aside {
+    flex: 30%;
+    padding: 20px;
+    background-color: #FCFBFB;
+}
+
+.imgMain {
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+    width: 50%;
+    height: 50%;
+    z-index: 2;
+
+}
+
+.slider p{
+    text-align: center;
+    margin-top: 15px;
+}
+.imgsecond img {
+    width: 100%;
+    padding: 0;
+    padding-top: 10px;
+}
+
+.TitleProd{
+font-family: $main-font;
+}
+.descuento{
+    text-decoration: line-through;
+    font-size:13px;
+}
+.availability-count{
+    color: rgb(247, 13, 35);
+}
+
+.sizes-list{
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+.select-size{
+ border: none;
+ width: 20px;
+ height: 20px;
+ font-family: $main-font;
+ cursor: pointer;
+ font-size:medium;
+ background-color:whitesmoke;
+ margin-bottom: 20px;
+}
+
+.guide-sizes{
+    cursor: pointer;
+    font-size: $main-font;
+    font-size: 12px;
+    text-decoration:underline;
+}

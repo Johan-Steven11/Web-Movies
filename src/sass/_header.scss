@@ -1,0 +1,134 @@
+@use '../sass/main.scss';
+
+.content-icons {
+   display: flex;
+   gap: 20px;
+   padding-left: 100px;
+   padding-right: 120px;
+}
+.HO1 {
+   display: inline-block;
+   transform: rotate(-20deg);
+}
+
+.HO2 {
+   margin-right: 10px;
+   display: inline-block;
+   transform: rotate(-20deg);
+}
+
+.Holiday {
+   margin-top: 10px;
+   display: inline-block;
+   transform: rotate(2deg);
+}
+.Descont{
+color: rgb(247, 13, 35);
+font-size: 30px;
+}
+.Descont2{
+color: transparent; /* Hace el relleno del texto transparente */
+-webkit-text-stroke: 1px  rgb(247, 13, 35);; /* Propiedad para el borde del texto - WebKit */
+font-size: 30px;
+}
+
+.snowflakeicon {
+   margin-top: 10px;
+   font-size: 30px;
+   padding-left: 120px;
+   color: #fff;
+   .snowflakeiconend{
+      margin-top: 10px;
+      font-size: 30px;
+   }
+}
+
+.navar {
+   width: 100%;
+   height: auto;
+   background-color: rgb(20, 28, 39);
+}
+
+.title-text {
+   color: white;
+   font-weight: bolder;
+}
+
+
+
+.content-navar {
+   display: flex;
+   padding-left: 120px;
+   padding-right: 120px;
+}
+.list-buttons {
+   display: flex;
+}
+
+.buttons {
+   background-color: transparent;
+   color: #fff;
+   border: none;
+   margin: 5px;
+   font-family: 'Rajdhani', sans-serif;
+   margin-left: 20px;
+   cursor: pointer;
+   font-size: 12px;
+}
+button:hover{
+ .Dropdown {
+   display : block;
+ }
+}
+
+.letterRed {
+   color:  rgb(247, 13, 35);
+   font-size: 15px;
+}
+
+.input-container {
+   position: relative;
+   left: 20px;
+}
+
+.Search {
+   padding-right: 30px;
+   width: 120px;
+   font-size: 12px;
+   color: #fff;
+   background-color: transparent;
+   border: none;
+   border-bottom: 1px solid #fff;
+   font-family: 'Rajdhani', sans-serif;
+   outline: none;
+   opacity: 1;
+
+}
+
+.search-icon {
+   position: absolute;
+   left: 125px;
+   top: 50%;
+   transform: translateY(-50%);
+   color: #999;
+   pointer-events: none;
+}
+
+
+.ticket-color {
+   position: absolute;
+   color: #fff;
+   left: 106px
+}
+.ConterButtons-profiles {
+   display: flex;
+   padding-left: 55px;
+}
+.buttons-profiles {
+   background-color: transparent;
+   color: #fff;
+   border: none;
+   margin: 5px;
+   cursor: pointer;
+}
+
